@@ -433,7 +433,7 @@
 
 .category-name_{
 	padding: 0 2%;
-	margin-bottom: 20px;
+	margin-bottom: 15px;
 }
 
 .category-name{
@@ -554,6 +554,7 @@
 .item-box{
 	width: 17.6%;
 	margin-left: 2%;
+	margin-bottom: 20px;
 }
 
 
@@ -658,4 +659,22 @@
 
 .sorts {
     height: 60px;
+    padding-top: 20px;
+}
+
+.content .items{
+	margin-left: -10px;
+}
+
+.content .items{
+	padding: 20px 0;
+	margin-bottom: 20px;
+}
+
+.content .item-box{
+	width:23%;
+}
+
+.sorts.bottom{
+	border-top: 1px solid #ededed;
 }

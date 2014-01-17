@@ -26,7 +26,7 @@
 	}
 
 	body{
-	  height: 100%;
+	  height: auto;
 	  position: relative;
 	  font: normal   75%/1.5 Arial, Helvetica, sans-serif;
 	  width: 1064px;
@@ -38,6 +38,18 @@
 	h1, h2, h3, h4, h5, h6{
 	  font-family: "Open Sans", sans-serif;
 	  font-weight: normal;
+	}
+
+	.gl-box-title{
+		text-transform: capitalize;
+		font-size: 2.5em;
+		color: #7F7F7F;
+		margin: 0 0  30px 0;
+	}
+
+	img{
+		max-width: 100%;
+		height: auto;
 	}
 
 	.gl-button{
@@ -349,4 +361,146 @@
 
 .top-nav-sub-link:hover{
 	color: #181818;
+}
+
+.site-name{
+	padding: 3.33em 2em;
+	text-align: center;
+	border-bottom: 1px solid #ededed;
+	line-height: 1;
+	margin-bottom: 0.42em;
+}
+
+.site-name-title{
+	font-size: 2.5em;
+	color: #191919;
+	margin: 0 0 0.63em 0;
+}
+
+.site-name-description{
+	color: #7F7F7F;
+	font-size: 1.67em;
+	margin: 0;
+}
+
+.bn_wrap{
+	border-bottom: 1px solid #ededed;
+	padding: 10px 0 15px;
+	margin-bottom: 30px;
+}
+
+.bn-item{
+	width: 31%;
+	height: 220px;
+	float: left;
+	overflow: hidden;
+	margin-left: 19px;
+	border: 3px solid transparent;
+	-webkit-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-ms-transition: all 0.4s;
+	-o-transition: all 0.4s;
+	transition: all 0.4s;
+	-webkit-background-clip: content-box;
+	-moz-background-clip: content-box;
+	background-clip: content-box;
+	background-repeat: no-repeat;
+	background-position: center center;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+.bn-item:hover{
+	-webkit-box-shadow: 0 0 1px  #444;
+	-moz-box-shadow: 0 0 1px  #444;
+	box-shadow: 0 0 1px  #444;
+}
+
+.bn-title{
+	font-size: 2.5em;
+	bottom:10%;
+	left:7%;
+	color: #444;
+	text-transform: capitalize;
+	-webkit-transition: all 0.8s;
+	-moz-transition: all 0.8s;
+	-ms-transition: all 0.8s;
+	-o-transition: all 0.8s;
+	transition: all 0.8s;
+}
+
+.bn-item:hover > .bn-title{
+	color: #000;
+}
+
+.bn-item:before{
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+	position: absolute;
+	content: '';
+	display: block;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	background: url('../images/bnr-overlay.png') center center no-repeat;
+	-webkit-background-size: 10% 10%;
+	background-size: 310% 310%;
+}
+
+.bn-item:hover:before{
+	opacity: 0.3;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+}
+
+.item-line{
+	padding: 2% 0;
+	border-bottom: 1px solid #EDEDED;
+}
+
+.item-line-title{
+	margin-left: 2%;
+}
+
+.item-box{
+	width: 17.6%;
+	margin-left: 2%;
+}
+
+
+.item-link{
+	display: block;
+	width: 100%;
+	height: 267px;
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+
+.item-title{
+	margin: 0;
+	font-weight: normal;
+	height: 35px;
+	overflow: hidden;
+	-ms-text-overflow: ellipsis;
+	text-overflow: ellipsis;
+}
+
+.item-title-link{
+	color: #959595;
+	font-size: 1em;
+}
+
+.item-title-link:hover{
+	text-decoration: underline;
+}
+
+.item-new-price{
+	font-size: 2.3em;
+	color: #D48728;
+	font-weight: 300;
 }

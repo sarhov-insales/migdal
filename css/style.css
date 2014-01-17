@@ -38,6 +38,7 @@
 	h1, h2, h3, h4, h5, h6{
 	  font-family: "Open Sans", sans-serif;
 	  font-weight: normal;
+
 	}
 
 	.gl-box-title{
@@ -45,6 +46,7 @@
 		font-size: 2.5em;
 		color: #7F7F7F;
 		margin: 0 0  30px 0;
+		font-weight: 300;
 	}
 
 	img{
@@ -74,6 +76,8 @@
 		text-decoration: none;
 		color: #888787;
 	}
+
+	
 
 	.fl{
 	  float:left;
@@ -370,24 +374,103 @@
 	border-bottom: 1px solid #ededed;
 	line-height: 1;
 	margin-bottom: 0.42em;
+	font-weight: 300;
 }
 
 .site-name-title{
 	font-size: 2.5em;
 	color: #191919;
 	margin: 0 0 0.63em 0;
+	font-weight: 300;
 }
 
 .site-name-description{
 	color: #7F7F7F;
 	font-size: 1.67em;
 	margin: 0;
+	font-weight: 300;
 }
 
 .bn_wrap{
 	border-bottom: 1px solid #ededed;
-	padding: 10px 0 15px;
+	padding: 15px 0 15px;
 	margin-bottom: 30px;
+
+}
+
+.breadcrumbs_{
+	padding: 0 2% 15px;
+	margin-bottom: 0;
+	text-transform: capitalize;
+	font-size: 1.25em;
+	color: #D48728;
+}
+
+.breadcrumbs{
+		border-bottom:1px solid  #ededed;
+		padding-bottom: 20px;
+}
+
+.category-name_:after{
+	content: '';
+	height: 1px;
+	background: #ededed;
+	width: 100%;
+	display: block;
+}
+
+.breadcrumb-item{
+	color: #9F9F9F;
+}
+
+.breadcrumb-item:hover{
+	color: #D48728;
+}
+
+.breadcrumb-item.current{
+	color: #D48728;
+}
+
+.category-name_{
+	padding: 0 2%;
+	margin-bottom: 20px;
+}
+
+.category-name{
+	color: #7F7F7F;
+	text-transform: capitalize;
+	font-size: 2.5em;
+	margin: 0;
+	font-weight: 300;
+}
+
+.subcategories{
+	padding-top: 20px;
+}
+
+.subcategory-item{
+	float: left;
+	width: 100px;
+	min-height: 145px;
+}
+
+.subcategory-link{
+	height: 115px;
+	display: block;
+	width: 100%;
+	margin-bottom: 30px;
+}
+
+.subcategory-title-link{
+	height: 40px;
+	overflow: hidden;
+	-ms-text-overflow: ellipsis;
+	text-overflow: ellipsis;
+}
+
+.subcategory-title-link:hover{
+	text-decoration: underline;
+	color: #424242;
 }
 
 .bn-item{
@@ -492,10 +575,12 @@
 		color: #959595;
 	font-size: 1em;
 	margin-bottom: 10px;
+		font-family: Arial, Helvetica, sans-serif;
 }
 
 .item-title-link{
 	color: #959595;
+
 }
 
 .item-title-link:hover{
@@ -506,6 +591,7 @@
 	font-size: 2.3em;
 	color: #D48728;
 	font-weight: 300;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .main-footer{
@@ -546,4 +632,30 @@
 
 .site-site-engine:hover{
 	text-decoration: underline;
+}
+
+.wrapper{
+	padding: 0 2%;
+}
+
+.sidebar{
+	width: 18%;
+}
+
+.content{
+	width:79%;
+	margin-left: 3%;
+}
+
+.sidebar-title{
+	margin: 0;
+}
+
+.sidebar-box, .sorts{
+	padding-bottom: 15px;
+	border-bottom: 1px solid #ededed;
+}
+
+.sorts {
+    height: 60px;
 }

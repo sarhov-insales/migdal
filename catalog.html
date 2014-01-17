@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/slider.css">
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+   <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/libs/jquery.min.js"><\/script>')</script>
     <script src="js/libs/modernizr.min.js"></script>
@@ -70,79 +70,6 @@
 
     </header>  <!-- main-head -->
 
-    <div class="slider_">
-            <div id="sar-slider" class="sar-slider slider">
-        <div class="sar-slide">
-          <h2>Warm welcome</h2>
-
-          <p>When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane.</p>
-
-          <div class="slide-price sar-link">
-            1200 руб.
-          </div>
-
-          <a href="#" class="sar-link gl-button ">Купить Сейчас</a>
-          <div class="sar-img" style="background-image:url('images/slide-1.png');"></div>
-        </div>
-        <div class="sar-slide">
-          <h2>Easy management</h2>
-          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                    <div class="slide-price sar-link">
-            1200 руб.
-          </div>
-          <a href="#" class="sar-link gl-button">Купить Сейчас</a>
-          <div class="sar-img" style="background-image:url('images/slide-2.png');"></div>
-        </div>
-        <div class="sar-slide">
-          <h2>Revolution</h2>
-          <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-                    <div class="slide-price sar-link">
-            1200 руб.
-          </div>
-          <a href="#" class="sar-link gl-button">Купить Сейчас</a>
-          <div class="sar-img" style="background-image:url('images/slide-3.png');"></div>
-        </div>
-        <div class="sar-slide">
-          <h2>Quality Control</h2>
-          <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
-           <div class="slide-price sar-link">
-            1200 руб.
-          </div>
-          <a href="#" class="sar-link gl-button">Купить Сейчас</a>
-          <div class="sar-img" style="background-image:url('images/slide-4.png');"></div>
-        </div>
-        <nav class="sar-arrows">
-          <span class="sar-arrows-prev"></span>
-          <span class="sar-arrows-next"></span>
-        </nav>
-      </div>
-    <script type="text/javascript">
-          $(function() {
-          
-            $('#sar-slider').cslider({
-              current     : 0,   
-              // index of current slide
-               
-              bgincrement : 90,  
-              // increment the background position
-              // (parallax effect) when sliding
-               
-              autoplay    : true,
-              // slideshow on / off
-               
-              interval    : 6000 
-              // time between transitions
-            });
-            
-          });
-        </script> 
-        </div>
-    </div>  <!-- sldier_ -->
-
-    <div class="site-name">
-        <h1 class="site-name-title">Добро пожаловать в наш сайт</h1>
-        <h2 class="site-name-description">В нашем магазине вы найдете одежду разных стилевых направлений и сможете подобрать гардероб для любого повода</h2>
-    </div> <!-- site-name -->
 
     <div class="bn bn_wrap cf">
         <figure class="bns">
@@ -159,7 +86,51 @@
         </figure>
     </div> <!-- bn_wrap -->
 
-    <section class="item-line">
+    <div class="breadcrumbs_">
+      <nav class="breadcrumbs">
+        <a href="#" class="breadcrumb-item"> навигация </a> >>
+        <a href="#" class="breadcrumb-item"> навигация </a> >>
+        <a href="#" class="breadcrumb-item current"> навигация </a>
+      </nav>
+    </div>
+
+    <div class="category-name_">
+      <h3 class="category-name">
+        Название Категории
+      </h3>
+      <section class="subcategories cf">
+        <div class="subcategory-item">
+        <a href="#" class="subcategory-link">
+          <img src="images/sub_1.png" alt="">
+        </a>
+        <h4 class="item-title">
+          <a href="#" class="subcategory-title-link">подкатегория</a>
+        </h4>
+        </div>
+      </section> <!-- subcategoires -->
+    </div>
+
+    <div class="wrapper cf">
+      <aside class="sidebar fl">
+        <section class="sidebar-box filtering">
+          <h4 class="gl-box-title sidebar-title">
+            Параметры
+          </h4>
+        </section>
+      </aside>
+      <main role="main" class="content fl">
+        <div class="sorts pages">
+          <div class="sorting ">
+            here goes sorting
+          </div>
+          <div class="page-items">
+            here goes showing pages
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <section class="item-line cb">
         <h4 class="item-line-title gl-box-title">
            Новые товары
         </h4>

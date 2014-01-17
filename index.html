@@ -109,7 +109,7 @@
             1200 руб.
           </div>
           <a href="#" class="sar-link gl-button">Купить Сейчас</a>
-          <div class="sar-img" style="background-image:url('http://lorempixel.com/400/400/');"></div>
+          <div class="sar-img" style="background-image:url('images/slide-4.png');"></div>
         </div>
         <nav class="sar-arrows">
           <span class="sar-arrows-prev"></span>
@@ -119,7 +119,20 @@
     <script type="text/javascript">
           $(function() {
           
-            $('#sar-slider').cslider();
+            $('#sar-slider').cslider({
+              current     : 0,   
+              // index of current slide
+               
+              bgincrement : 90,  
+              // increment the background position
+              // (parallax effect) when sliding
+               
+              autoplay    : true,
+              // slideshow on / off
+               
+              interval    : 4000 
+              // time between transitions
+            });
             
           });
         </script> 

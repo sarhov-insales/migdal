@@ -1,4 +1,5 @@
 /*The global styles*/
+
 	.cf:before,.cf:after {
 	  content: " "; /* 1 */
 	display: table; /* 2 */
@@ -37,6 +38,28 @@
 	h1, h2, h3, h4, h5, h6{
 	  font-family: "Open Sans", sans-serif;
 	  font-weight: normal;
+	}
+
+	.gl-button{
+		background: #2B2B2B;
+		font-size: 1.42em;
+		padding: 10px 15px;
+		-webkit-border-radius: 4px;
+		-moz-border-radius: 4px;
+		border-radius: 4px;
+		-webkit-transition: all 0.3s;
+		-moz-transition: all 0.3s;
+		-ms-transition: all 0.3s;
+		-o-transition: all 0.3s;
+		transition: all 0.3s;
+	}
+
+	.gl-button:hover{
+		background: #D48728;
+	}
+
+	a{
+		text-decoration: none;
 	}
 
 	.fl{
@@ -184,8 +207,31 @@
 
 /*End the global styles*/
 
+/*fallback for slider*/
+
+	.no-js .da-slide{
+		position: relative;
+	}
+	.no-js .da-slide h2,
+	.no-js .da-slide p,
+	.no-js .da-slide .da-link,
+	.no-js .da-slide .da-img{
+		position: absolute;
+		opacity: 1;
+		left: 10%;
+	}
+	.no-js .da-slide .da-img{
+		left: 60%;
+	}
+	.no-js .da-dots,
+	.no-js .da-arrows{
+		display: none;
+	}
+
+/*end fallbak for slider*/
+
 .site-logo_{
-	margin: 55px 0 55px 55px;
+	margin: 55px 0 35px 55px;
 }
 
 .search-wrap_{
@@ -233,4 +279,74 @@
 
 .search-submit:hover{
 	opacity: 1;
+}
+
+.top-nav_{
+	width: 100%;
+	background: #2B2B2B;
+}
+
+.top-nav_ a{
+	-webkit-transition: color 0.4s;
+	-moz-transition: color 0.4s;
+	-ms-transition: color 0.4s;
+	-o-transition: color 0.4s;
+	transition: color 0.4s;
+}
+
+.top-nav-item{
+	float: left;
+	margin-left: 10px;	
+	padding: 10px 0;
+}
+
+.top-nav-link{
+	padding: 7px;
+	text-transform: uppercase;
+	display: inline-block;
+	font-size: 1.41em;
+	color: #fff;
+}
+
+.top-nav-item:hover > a, .top-nav-link.active{
+	color: #D48728;
+}
+
+.top-nav-sub{
+	position: absolute;
+	top:130%;
+	opacity: 0;
+	visibility: hidden;
+	min-width: 200px;
+	width: 120%;
+	left: 0;
+	background: rgba(252,253,250, .95);
+	padding: 7px 20px 0 20px;
+	-webkit-transition: all 0.6s;
+	-moz-transition: all 0.6s;
+	-ms-transition: all 0.6s;
+	-o-transition: all 0.6s;
+	transition: all 0.6s;
+	z-index: 9999;
+}
+
+.top-nav-item:hover > .top-nav-sub{
+	top: 100%;
+	visibility: visible;
+	opacity: 1;
+}
+
+.top-nav-sub-link{
+	color: #939393;
+	display: block;
+	padding: 5px;
+	border-top: 1px dotted #BFBEBE;
+}
+
+.top-nav-sub-link:first-child{
+	border: none;
+}
+
+.top-nav-sub-link:hover{
+	color: #181818;
 }

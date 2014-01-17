@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <link rel="icon" type="image/gif" href="animated_favicon1.gif">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Blank Insales Template</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/slider.css">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/libs/jquery.min.js"><\/script>')</script>
+    <script src="js/libs/modernizr.min.js"></script>
+    <script src="js/slider.js"></script>
+</head>
+<body>
+    <header class="main-head cf">
+        <div class="site-logo_ fl">
+          <a href="{{site.url}}" class="site-logo">
+              <img src="logo.png" alt="">
+          </a>
+        </div>  <!-- site-log_ -->
+
+        <div class="search-wrap_ fr">
+          <div class="search-wrap cf">
+            <form action="{{search.url}}">
+              <input class="search-input-txt" type="text" name="" id="" placeholder="поиск по сайту">
+              <button class="search-submit">искать</button>
+            </form>
+          </div>
+        </div>  <!-- search-wrap_ -->
+
+        <div class="top-nav_ cb">
+          <nav class="top-nav cf">
+            <div class="top-nav-item rel">
+              <a href="catalog.html" class="top-nav-link">категория</a>
+              <nav class="top-nav-sub">
+                <a href="catalog.html" class="top-nav-sub-link">под каталог</a>
+                <a href="catalog.html" class="top-nav-sub-link">под каталог</a>
+                <a href="catalog.html" class="top-nav-sub-link">под каталог</a>
+                <a href="catalog.html" class="top-nav-sub-link">под каталог</a>
+                <a href="catalog.html" class="top-nav-sub-link">под каталог</a>
+                <a href="catalog.html" class="top-nav-sub-link">под каталог</a>
+                <a href="catalog.html" class="top-nav-sub-link">под каталог</a>
+              </nav>
+            </div>
+            <div class="top-nav-item rel">
+              <a href="catalog.html" class="top-nav-link active">категория</a>
+            </div>
+            <div class="top-nav-item rel">
+              <a href="catalog.html" class="top-nav-link">категория</a>
+            </div>
+            <div class="top-nav-item rel">
+              <a href="catalog.html" class="top-nav-link">категория</a>
+            </div>
+            <div class="top-nav-item rel">
+              <a href="catalog.html" class="top-nav-link">категория</a>
+            </div>
+            <div class="top-nav-item rel">
+              <a href="catalog.html" class="top-nav-link">категория</a>
+            </div>
+            <div class="top-nav-item rel">
+              <a href="catalog.html" class="top-nav-link">категория</a>
+            </div>
+          </nav>
+        </div>
+
+    </header>  <!-- main-head -->
+
+    <div class="slider_">
+            <div id="sar-slider" class="sar-slider slider">
+        <div class="sar-slide">
+          <h2>Warm welcome</h2>
+
+          <p>When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane.</p>
+
+          <div class="slide-price sar-link">
+            1200 руб.
+          </div>
+
+          <a href="#" class="sar-link gl-button ">Купить Сейчас</a>
+          <div class="sar-img" style="background-image:url('images/slide-1.png');"></div>
+        </div>
+        <div class="sar-slide">
+          <h2>Easy management</h2>
+          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                    <div class="slide-price sar-link">
+            1200 руб.
+          </div>
+          <a href="#" class="sar-link gl-button">Купить Сейчас</a>
+          <div class="sar-img" style="background-image:url('images/slide-2.png');"></div>
+        </div>
+        <div class="sar-slide">
+          <h2>Revolution</h2>
+          <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+                    <div class="slide-price sar-link">
+            1200 руб.
+          </div>
+          <a href="#" class="sar-link gl-button">Купить Сейчас</a>
+          <div class="sar-img" style="background-image:url('images/slide-3.png');"></div>
+        </div>
+        <div class="sar-slide">
+          <h2>Quality Control</h2>
+          <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
+           <div class="slide-price sar-link">
+            1200 руб.
+          </div>
+          <a href="#" class="sar-link gl-button">Купить Сейчас</a>
+          <div class="sar-img" style="background-image:url('images/slide-4.png');"></div>
+        </div>
+        <nav class="sar-arrows">
+          <span class="sar-arrows-prev"></span>
+          <span class="sar-arrows-next"></span>
+        </nav>
+      </div>
+    <script type="text/javascript">
+          $(function() {
+          
+            $('#sar-slider').cslider({
+              current     : 0,   
+              // index of current slide
+               
+              bgincrement : 90,  
+              // increment the background position
+              // (parallax effect) when sliding
+               
+              autoplay    : true,
+              // slideshow on / off
+               
+              interval    : 6000 
+              // time between transitions
+            });
+            
+          });
+        </script> 
+        </div>
+    </div>  <!-- sldier_ -->
+
+    <div class="site-name">
+        <h1 class="site-name-title">Добро пожаловать в наш сайт</h1>
+        <h2 class="site-name-description">В нашем магазине вы найдете одежду разных стилевых направлений и сможете подобрать гардероб для любого повода</h2>
+    </div> <!-- site-name -->
+
+    <div class="bn bn_wrap cf">
+        <figure class="bns">
+            <a href="" class="bn-item rel" style="background-image:url('images/bnr-1.jpg');">
+             
+              <span class="bn-title abs">Название Баннера</span>
+            </a>
+            <a href="" class="bn-item rel" style="background-image:url('images/bnr-2.jpg');">
+              <span class="bn-title abs">Название Баннера</span>
+            </a>
+            <a href="" class="bn-item rel" style="background-image:url('images/bnr-1.jpg');">
+              <span class="bn-title abs">Название Баннера</span>
+            </a>
+        </figure>
+    </div> <!-- bn_wrap -->
+
+    <section class="item-line">
+        <h4 class="item-line-title gl-box-title">
+           Новые товары
+        </h4>
+
+        <div class="items cf">
+
+          <article class="item item-box fl">
+            <a href="item.html" class="item-link">
+              <img src="images/item-image.png" alt="" class="item-image">
+            </a>
+            <h1 class="item-title">
+            <a href="" class="item-title-link">Название Товара</a>
+            </h1>
+            <div class="item-price_ cf">
+              <span class="item-new-price">
+               1200 руб. 
+              </span>
+            </div>
+          </article>
+
+          <article class="item item-box fl">
+            <a href="item.html" class="item-link">
+              <img src="images/item-image.png" alt="" class="item-image">
+            </a>
+            <h1 class="item-title">
+            <a href="" class="item-title-link">Название Товара</a>
+            </h1>
+            <div class="item-price_ cf">
+              <span class="item-new-price">
+               1200 руб. 
+              </span>
+            </div>
+          </article>
+
+          <article class="item item-box fl">
+            <a href="item.html" class="item-link">
+              <img src="images/item-image.png" alt="" class="item-image">
+            </a>
+            <h1 class="item-title">
+            <a href="" class="item-title-link">Название Товара</a>
+            </h1>
+            <div class="item-price_ cf">
+              <span class="item-new-price">
+               1200 руб. 
+              </span>
+            </div>
+          </article>
+
+          <article class="item item-box fl">
+            <a href="item.html" class="item-link">
+              <img src="images/item-image.png" alt="" class="item-image">
+            </a>
+            <h1 class="item-title">
+            <a href="" class="item-title-link">Название Товара</a>
+            </h1>
+            <div class="item-price_ cf">
+              <span class="item-new-price">
+               1200 руб. 
+              </span>
+            </div>
+          </article>
+
+          <article class="item item-box fl">
+            <a href="item.html" class="item-link">
+              <img src="images/item-image.png" alt="" class="item-image">
+            </a>
+            <h1 class="item-title">
+            <a href="" class="item-title-link">Название Товара</a>
+            </h1>
+            <div class="item-price_ cf">
+              <span class="item-new-price">
+               1200 руб. 
+              </span>
+            </div>
+          </article>
+
+        </div>
+    </section>  <!-- item-line -->
+    
+    <section class="item-line">
+        <h4 class="item-line-title gl-box-title">
+           популярные товары
+        </h4>
+
+        <div class="items cf">
+
+          <article class="item item-box fl">
+            <a href="item.html" class="item-link">
+              <img src="images/item-image.png" alt="" class="item-image">
+            </a>
+            <h1 class="item-title">
+            <a href="" class="item-title-link">Название Товара</a>
+            </h1>
+            <h2 class="item-description">
+              Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Силуэт, лучше, ручеек, осталось пор грамматики выйти текстов буквоград мир его вершину взобравшись переписали речью использовало они встретил путь грустный.
+            </h2>
+            <div class="item-price_ cf">
+              <span class="item-new-price">
+               1200 руб. 
+              </span>
+            </div>
+          </article>
+
+          <article class="item item-box fl">
+            <a href="item.html" class="item-link">
+              <img src="images/item-image.png" alt="" class="item-image">
+            </a>
+            <h1 class="item-title">
+            <a href="" class="item-title-link">Название Товара</a>
+            </h1>
+            <div class="item-price_ cf">
+              <span class="item-new-price">
+               1200 руб. 
+              </span>
+            </div>
+          </article>
+
+          <article class="item item-box fl">
+            <a href="item.html" class="item-link">
+              <img src="images/item-image.png" alt="" class="item-image">
+            </a>
+            <h1 class="item-title">
+            <a href="" class="item-title-link">Название Товара</a>
+            </h1>
+            <div class="item-price_ cf">
+              <span class="item-new-price">
+               1200 руб. 
+              </span>
+            </div>
+          </article>
+
+          <article class="item item-box fl">
+            <a href="item.html" class="item-link">
+              <img src="images/item-image.png" alt="" class="item-image">
+            </a>
+            <h1 class="item-title">
+            <a href="" class="item-title-link">Название Товара</a>
+            </h1>
+            <div class="item-price_ cf">
+              <span class="item-new-price">
+               1200 руб. 
+              </span>
+            </div>
+          </article>
+
+          <article class="item item-box fl">
+            <a href="item.html" class="item-link">
+              <img src="images/item-image.png" alt="" class="item-image">
+            </a>
+            <h1 class="item-title">
+            <a href="" class="item-title-link">Название Товара</a>
+            </h1>
+            <div class="item-price_ cf">
+              <span class="item-new-price">
+               1200 руб. 
+              </span>
+            </div>
+          </article>
+
+        </div>
+    </section>  <!-- item-line -->
+
+    <footer class="main-footer">
+        <nav class="foot-nav cf">
+            <a href="" class="fl foot-nav-link active">пунтк меню</a>
+            <a href="" class="fl foot-nav-link">пунтк меню</a>
+            <a href="" class="fl foot-nav-link">пунтк меню</a>
+            <a href="" class="fl foot-nav-link">пунтк меню</a>
+            <a href="" class="fl foot-nav-link">пунтк меню</a>
+            <a href="" class="fl foot-nav-link">пунтк меню</a>
+        </nav>
+        <aside class="copyright">
+            <a href="" class="copy-site-name">midgal</a>
+           <span copy-date> &copy; 2014</span>
+           | 
+           <a href="" class="site-site-engine">Сделанно в Insales</a>
+        </aside>
+    </footer>  <!-- main-foot -->
+
+</body>
+</html>
